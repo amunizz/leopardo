@@ -299,7 +299,7 @@ footer {
     display: flex;
     margin: 0 auto;
     min-height: 17rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
     border-radius: 0 0 2.5rem 2.5rem;
     background-image: url(../imgs/fundo_topo.png);
     background-position: top;
@@ -350,4 +350,20 @@ footer {
     justify-content: flex-start;
     gap: 2rem;
     align-items: center;
+}
+
+.creditos {
+    color: #8a8c8e;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.area-icone-atendimento {
+    display: flex;
+    background-image: url(../imgs/icone_atendimento.png);
+    background-size: cover;
+    width: 3.5rem;
+    height: 3rem;
 }
