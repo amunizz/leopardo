@@ -298,10 +298,56 @@ footer {
     width: 75%;
     display: flex;
     margin: 0 auto;
-    min-height: 20rem;
+    min-height: 17rem;
     margin-bottom: 10rem;
     border-radius: 0 0 2.5rem 2.5rem;
     background-image: url(../imgs/fundo_topo.png);
     background-position: top;
     background-size: cover;
+}
+
+.logo-footer {
+    align-self: flex-end;
+    margin-left: 5rem;
+    background-color: #fff;
+    width: 16rem;
+    height: 13rem;
+    background-image: url(../imgs/logo.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-footer {
+    margin-left: 2rem;
+    padding: 0.5rem;
+    border-color: #fff;
+    color: #fff;
+    margin-top: 5rem;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-content:flex-start;
+    align-self: flex-start;
+}
+.nav-footer ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.whatss-footer {
+    font-size: 0.8rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+.nav-contact-footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
 }
