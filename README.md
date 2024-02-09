@@ -1,7 +1,7 @@
-## _la-pelota_
+## _leopardo_
 <h1>Juliana Leopardo | Advocacia Criminal</h1>
 
-![React Logo](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB "Logo do React")
+![HTML5 Logo](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white "Logo do HTML5") ![CSS3 Logo](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white "Logo do CSS3")
 
 > Status do Projeto: Em desenvolvimento
 
