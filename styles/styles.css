@@ -80,7 +80,7 @@ html {
     margin: 0 auto;
     justify-content: space-between;
     width: 75%;
-    height: 10rem;
+    
     
 }
 
@@ -204,7 +204,11 @@ nav ul {
 }
 
 .img-box-bio {
+    background-image: url(../imgs/bio.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0 2.5rem 0 4.5rem;
+    width: 35rem;
 }
 
 .img-bio {
@@ -217,8 +221,10 @@ nav ul {
     color: #E86763;
 }
 
+
 .bio-text {
     margin: 4rem 6rem 0 0;
+    flex-shrink: 1;
 }
 
 .bio-text-h3 {
@@ -275,6 +281,14 @@ li::marker {
     color:#E86763;
 }
 
+.lista-atuacao2 {
+    font-size: 1.1rem;
+    list-style-type:square;
+}
+li::marker {
+    color:#E86763;
+}
+
 .atendimento {
     background-color: #fff;
     margin: 0 auto;
@@ -324,7 +338,7 @@ footer {
     border-color: #fff;
     color: #fff;
     margin-top: 5rem;
-    width: 85%;
+    
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -357,7 +371,8 @@ footer {
     font-weight: 200;
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin: 0 1rem 3rem 1rem;
+    text-align: center;
 }
 
 .area-icone-atendimento {
@@ -366,4 +381,218 @@ footer {
     background-size: cover;
     width: 3.5rem;
     height: 3rem;
+}
+
+@media (max-width: 1315px) {
+    .topbox {
+        width: 85%;
+        margin-top: 5rem;
+    }
+    .bio {
+        width: 85%;
+    }
+    .atuacao {
+        width: 85%;
+    }
+    .atendimento {
+        width: 85%;
+    }
+    footer {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1165px) {
+    .topbox {
+        width: 90%;
+        margin-top: 3rem;
+    }
+    .bio {
+        width: 90%;
+    }
+    .atuacao {
+        width: 90%;
+    }
+    .atendimento {
+        width: 90%;
+    }
+    footer {
+        width: 90%;
+    }
+    .creditos {
+        margin-bottom: 2rem;
+    }
+    
+}
+
+@media (max-width: 1045px) {
+    .margin-bottom {
+        margin-bottom: 1rem;
+    }
+    .hero-text {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1020px) {
+    .hero-pic img {
+        width: 18rem;
+    }
+    .hero-text {
+        margin-bottom: 1.5rem;
+    }
+    nav {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .topbox {
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+    }
+    .bio-text {
+        margin: 2rem 2rem 2rem 0 
+    }
+    .bio {
+        width: 100%;
+    }
+    .atuacao {
+        width: 100%;
+    }
+    .atendimento {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 0.5rem;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+        width: 70%;
+    }
+    .hero-text--heading {
+        text-align: center;
+    }
+    .hero-text--paragraph {
+        text-align: center;
+    }
+    .hero {
+        margin-top: 1rem;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bio-text {
+        margin: 1.5rem 1rem 1rem 0 
+    }
+    .whatss-text {
+        display: none;
+    }
+    .email-text {
+        display: none;
+    }
+
+    .button-hero {
+        align-self: center;
+        width: 12rem;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .logo-footer {
+        align-self: center;
+        margin: 0 auto;
+    }
+    .nav-footer {
+        margin-top: 1rem;
+        align-self: center;
+        margin-left: 0;
+        gap: 0.5rem;
+    }
+    .nav-footer ul {
+        justify-content: center;
+    }
+    .nav-contact-footer {
+        justify-content: center;
+    }
+    .whatss-text-footer {
+        display: none;
+    }
+    .email-text-footer {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .hero-text {
+        width: 85%;
+    }
+    .heading-section {
+        margin: 0.5rem 0 0 1.2rem;
+    }
+    .atendimento-box {
+        width: 85%;
+        margin: 0 0 2rem 3rem;
+    }
+    .atendimento-text {
+        font-size: 1.1rem;
+    }
+    .atuacao-text {
+        margin-left: 7rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .atuacao {
+        background-position: center;
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .lista-atuacao2 {
+        margin-bottom: 2rem;
+    }
+    .img-box-bio {
+        width: 10rem;
+    }
+    .bio-text {
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        align-items: center;
+        flex-direction: column;
+    }
+    .cta {
+        margin-top: 2rem;
+    }
+    nav {
+        margin-top: 2rem;
+    }
+    
+    .img-box-bio {
+        margin: 0 1.2rem 0 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .email {
+        display: none;
+    }
 }
