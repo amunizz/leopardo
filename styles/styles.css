@@ -604,21 +604,21 @@ footer {
     }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
     .topbox {
-        width: 60%;
+        width: 55%;
         margin-top: 5rem;
     }
     .bio {
-        width: 50%;
+        width: 55%;
     }
     .atuacao {
-        width: 50%;
+        width: 55%;
     }
     .atendimento {
-        width: 50%;
+        width: 55%;
     }
     footer {
-        width: 50%;
+        width: 55%;
     }
 }
