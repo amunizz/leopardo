@@ -604,9 +604,9 @@ footer {
     }
 }
 
-@media (min-width: 1316px) {
+@media (min-width: 1600px) {
     .topbox {
-        width: 50%;
+        width: 60%;
         margin-top: 5rem;
     }
     .bio {
