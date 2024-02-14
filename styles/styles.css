@@ -163,6 +163,13 @@ nav ul {
     align-items: center;
 }
 
+.email-footer {
+    font-size: 0.8rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
 .hero {
     color: #fff;
     margin-top: 3rem;
