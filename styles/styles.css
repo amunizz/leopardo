@@ -498,6 +498,44 @@ footer {
     height: 3rem;
 }
 
+.email-text-footer a {
+    position: relative;
+
+}
+
+.email-text-footer a::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #E86763;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+.email-text-footer a:hover::after {
+    width: 100%;
+}
+
+.whatss-text-footer a {
+    position: relative;
+}
+
+.whatss-text-footer a::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #E86763;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.whatss-text-footer a:hover::after {
+    width: 100%;
+}
+
 @media (max-width: 1315px) {
     .topbox {
         width: 85%;
