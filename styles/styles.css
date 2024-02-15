@@ -52,6 +52,12 @@ html {
   font-family: 'Jost', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color:#E86763;
+}
+
+
 .topbox {
     margin-top: 9rem;
     display: flex;
@@ -135,11 +141,51 @@ nav {
     color: #E86763;
 }
 
-nav ul {
-    display: flex;
+.hero-text--paragraph a {
+    position: relative;
+}
+
+.hero-text--paragraph a::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #E86763;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.hero-text--paragraph a:hover::after {
+    width: 100%;
+}
+
+.nav-items {
+    display:flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+.nav-items a {
+    position: relative;
+    color: #fff;
+}
+
+.nav-items a::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #E86763;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+
+}
+
+.nav-items a:hover::after {
+    width: 100%;
 }
 
 .nav-contact {
@@ -155,6 +201,45 @@ nav ul {
     gap: 1rem;
     align-items: center;
 }
+
+.whatss-text a {
+    position: relative;
+}
+
+.whatss-text a::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #E86763;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.whatss-text a:hover::after {
+    width: 100%;
+}
+
+.email-text a {
+    position: relative;
+}
+
+.email-text a::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #E86763;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.email-text a:hover::after {
+    width: 100%;
+}
+
 
 .email {
     font-size: 0.8rem;
@@ -359,6 +444,29 @@ footer {
     align-items: center;
     gap: 2rem;
 }
+.nav-footer ul li a {
+    color: #fff;
+}
+
+.nav-footer ul li {
+    
+    position: relative;
+}
+
+.nav-footer ul li::after {
+    content: " ";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #E86763;
+    bottom: -4px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+.nav-footer ul li:hover::after {
+    width: 100%;
+}
+
 
 .whatss-footer {
     font-size: 0.8rem;
@@ -478,6 +586,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+    .topbox {
+        background-position: right;
+    }
     .hero-text {
         display: flex;
         justify-content: center;
@@ -621,4 +732,5 @@ footer {
     footer {
         width: 55%;
     }
+    
 }
